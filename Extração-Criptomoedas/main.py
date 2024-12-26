@@ -51,7 +51,7 @@ if response:
 
 # %%
 
-data = pd.read_json(r'C:\Users\foxgh\OneDrive\Área de Trabalho\Data-Colletct\Extração-Criptomoedas\json\2024-12-26_19-25-56.473395.json')
+data = pd.read_json('Extração-Criptomoedas/json/2024-12-26_19-25-56.473395.json')
 data
 # %%
 # Filtrar por uma moeda específica, por exemplo, "Bitcoin"

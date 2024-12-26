@@ -42,14 +42,7 @@ while True:
     else: 
         print(resp.status_code)
         print(resp.json())
-        time.sleep(30)
-
-
-
-        
-        
-        
-        
+        time.sleep(30) 
 # %% 
 resp = get_response(page=1, per_page=100, strategy="new")
 if resp.status_code == 200:
